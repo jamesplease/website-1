@@ -83,7 +83,7 @@ function helloWorld () {
   
   useEffect(() => {
     grid.render(document.getElementById('wrapper'));
-  });
+  }, []);
   
   return (
     <div id="wrapper" />
